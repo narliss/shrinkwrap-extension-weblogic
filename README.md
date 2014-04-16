@@ -1,0 +1,2 @@
+Shrinkwrap extension to support WebLogic deployment and shared library information. WebLogic Archives have the added
+knowledge of how they should be staged or whether they should be deployed as a shared library.
