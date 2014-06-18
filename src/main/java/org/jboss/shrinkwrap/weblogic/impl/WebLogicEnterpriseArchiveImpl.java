@@ -2,7 +2,7 @@ package org.jboss.shrinkwrap.weblogic.impl;
 
 import org.jboss.shrinkwrap.api.Archive;
 import org.jboss.shrinkwrap.impl.base.spec.EnterpriseArchiveImpl;
-import org.jboss.shrinkwrap.weblogic.api.WebLogicArtifactAttributes;
+import org.jboss.shrinkwrap.weblogic.api.WebLogicArtifact;
 import org.jboss.shrinkwrap.weblogic.api.WebLogicEnterpriseArchive;
 
 /**
@@ -11,7 +11,7 @@ import org.jboss.shrinkwrap.weblogic.api.WebLogicEnterpriseArchive;
  * @author Patrick Peralta, Noah Arliss
  */
 public class WebLogicEnterpriseArchiveImpl extends EnterpriseArchiveImpl implements WebLogicEnterpriseArchive {
-    private final WebLogicArtifactAttributes webLogicArtifactAttributes = new WebLogicArtifactAttributesImpl();
+    private final WebLogicArtifact webLogicArtifact = new WebLogicArtifactImpl();
 
     /**
      * Create a new WebLogicEnterpriseArchive with any type storage engine as backing.
@@ -26,27 +26,27 @@ public class WebLogicEnterpriseArchiveImpl extends EnterpriseArchiveImpl impleme
      * {@inheritDoc}
      */
     public boolean isSharedLibrary() {
-        return webLogicArtifactAttributes.isSharedLibrary();
+        return webLogicArtifact.isSharedLibrary();
     }
 
     /**
      * {@inheritDoc}
      */
-    public WebLogicArtifactAttributes setSharedLibrary(boolean sharedLibrary) {
-        return webLogicArtifactAttributes.setSharedLibrary(sharedLibrary);
+    public WebLogicArtifact setSharedLibrary(boolean sharedLibrary) {
+        return webLogicArtifact.setSharedLibrary(sharedLibrary);
     }
 
     /**
      * {@inheritDoc}
      */
     public StageMode getStageMode() {
-        return webLogicArtifactAttributes.getStageMode();
+        return webLogicArtifact.getStageMode();
     }
 
     /**
      * {@inheritDoc}
      */
-    public WebLogicArtifactAttributes setStageMode(StageMode stageMode) {
-        return webLogicArtifactAttributes.setStageMode(stageMode);
+    public WebLogicArtifact setStageMode(StageMode stageMode) {
+        return webLogicArtifact.setStageMode(stageMode);
     }
 }

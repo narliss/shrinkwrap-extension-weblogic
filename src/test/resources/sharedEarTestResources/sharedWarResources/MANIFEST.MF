@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Specification-Title: Images
+Implementation-Title: Images Implementation
+Implementation-Vendor: Oracle
+Extension-Name: imageswar

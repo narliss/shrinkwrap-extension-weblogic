@@ -8,5 +8,5 @@ import org.jboss.shrinkwrap.api.spec.EnterpriseArchive;
  *
  * @author Patrick Peralta, Noah Arliss
  */
-public interface WebLogicEnterpriseArchive extends EnterpriseArchive, WebLogicArtifactAttributes {
+public interface WebLogicEnterpriseArchive extends EnterpriseArchive, WebLogicArtifact {
 }
