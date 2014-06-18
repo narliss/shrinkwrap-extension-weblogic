@@ -1,7 +1,8 @@
 package org.jboss.shrinkwrap.weblogic.samplejar;
 
 /**
- * Created by jnag on 6/12/14.
+ * A sample interface which is being packaged as a shared java archive to be deployed in the WebLogic server.
+ * @author Jyotishman Nag
  */
 public interface SampleInterface {
 

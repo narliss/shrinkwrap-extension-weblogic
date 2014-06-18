@@ -6,7 +6,7 @@
    <module>
         <web>
             <web-uri>DependentWar.war</web-uri>
-            <context-root>dependentEar</context-root>
+            <context-root>DependentWar</context-root>
         </web>
     </module>
 

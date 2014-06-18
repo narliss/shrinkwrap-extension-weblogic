@@ -10,11 +10,11 @@ import org.junit.runners.Suite;
 import static org.junit.Assert.fail;
 
 /**
- * The integration test needs to connect to a running Weblogic server to deploy the archives. The README.md document
- * contains details of how to run this unit test. You would need to edit the ShrinkWrapWeblogicTest.properties file
- * under the resources folder with details about how to connect to your weblogic server (host, port, credentials,
- * target, protocol). You would also need to edit the pom.xml to specify the location of your Weblogic installation
- * ($WEBLOGIC_HOME).
+ * The integration test needs to connect to a running WebLogic server to deploy the archives. The README.md document
+ * contains details of how to run this integration test suite. You would need to edit the ShrinkWrapWeblogicTest
+ * .properties file under the resources folder with details about how to connect to your weblogic server (host, port,
+ * credentials, target, protocol). You would also need to edit the pom.xml to specify the location of your WebLogic
+ * installation ($WEBLOGIC_HOME).
  *
  * @author Jyotishman Nag
  */

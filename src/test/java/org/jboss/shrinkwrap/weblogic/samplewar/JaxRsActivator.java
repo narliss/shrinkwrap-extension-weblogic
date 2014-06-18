@@ -5,7 +5,9 @@ import javax.ws.rs.core.Application;
 import javax.ws.rs.ApplicationPath;
 
 /**
- * Created by jnag on 6/10/14.
+ * Used to define an application path for a sample webservice which will be packaged as a war file and deployed inside
+ * of WebLogic
+ * @author Jyotishman Nag
  */
 @ApplicationPath("/rest")
 public class JaxRsActivator extends Application{

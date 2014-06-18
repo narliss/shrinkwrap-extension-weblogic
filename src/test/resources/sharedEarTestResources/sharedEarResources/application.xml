@@ -6,7 +6,7 @@
     <module>
         <web>
             <web-uri>SharedWar.war</web-uri>
-            <context-root>sharedEar</context-root>
+            <context-root>sharedWar</context-root>
         </web>
     </module>
 

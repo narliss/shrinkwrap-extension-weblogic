@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
 Class-Path:
 Extension-List: hello
-hello-Extension-Name: SampleJar
+hello-Extension-Name: SharedJar
 

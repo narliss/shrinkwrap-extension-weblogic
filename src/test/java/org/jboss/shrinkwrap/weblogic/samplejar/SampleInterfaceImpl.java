@@ -1,7 +1,9 @@
 package org.jboss.shrinkwrap.weblogic.samplejar;
 
 /**
- * Created by jnag on 6/12/14.
+ * Implementation of {@link org.jboss.shrinkwrap.weblogic.samplejar.SampleInterface}. The class will be packaged
+ * as a shared Java archive and deployed in the WebLogic server.
+ * @author Jyotishman Nag
  */
 public class SampleInterfaceImpl implements SampleInterface {
 
