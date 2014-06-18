@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.4">
+    <description>SharedEar</description>
+    <display-name>SharedEar Example</display-name>
+
+    <module>
+        <web>
+            <web-uri>SharedWar.war</web-uri>
+            <context-root>sharedEar</context-root>
+        </web>
+    </module>
+
+   <library-directory>lib</library-directory>
+
+</application>

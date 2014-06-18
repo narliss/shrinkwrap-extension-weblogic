@@ -12,7 +12,7 @@ package org.jboss.shrinkwrap.weblogic.api;
  *
  * @author Patrick Peralta, Noah Arliss
  */
-public interface WebLogicArtifactAttributes {
+public interface WebLogicArtifact {
     /**
      * WebLogic staging modes. Invoke the {@code toString} method
      * in order to obtain the string to pass to the WebLogic
@@ -64,7 +64,7 @@ public interface WebLogicArtifactAttributes {
      *                      configured as a shared library
      * @return this object
      */
-    WebLogicArtifactAttributes setSharedLibrary(boolean sharedLibrary);
+    WebLogicArtifact setSharedLibrary(boolean sharedLibrary);
 
     /**
      * Return the stage mode for the artifact.
@@ -79,5 +79,5 @@ public interface WebLogicArtifactAttributes {
      * @param stageMode stage mode for the artifact
      * @return this object
      */
-    WebLogicArtifactAttributes setStageMode(StageMode stageMode);
+    WebLogicArtifact setStageMode(StageMode stageMode);
 }

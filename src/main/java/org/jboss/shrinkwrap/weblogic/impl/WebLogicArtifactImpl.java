@@ -1,13 +1,13 @@
 package org.jboss.shrinkwrap.weblogic.impl;
 
-import org.jboss.shrinkwrap.weblogic.api.WebLogicArtifactAttributes;
+import org.jboss.shrinkwrap.weblogic.api.WebLogicArtifact;
 
 /**
- * Default implementation of {@link WebLogicArtifactAttributes}.
+ * Default implementation of {@link org.jboss.shrinkwrap.weblogic.api.WebLogicArtifact}.
  *
  * @author Patrick Peralta, Noah Arliss
  */
-public class WebLogicArtifactAttributesImpl implements WebLogicArtifactAttributes {
+public class WebLogicArtifactImpl implements WebLogicArtifact {
     /**
      * Specifies if the artifact is a shared library.
      */
@@ -28,7 +28,7 @@ public class WebLogicArtifactAttributesImpl implements WebLogicArtifactAttribute
     /**
      * {@inheritDoc}
      */
-    public WebLogicArtifactAttributes setSharedLibrary(boolean sharedLibrary) {
+    public WebLogicArtifact setSharedLibrary(boolean sharedLibrary) {
         this.sharedLibrary = sharedLibrary;
         return this;
     }
@@ -43,7 +43,7 @@ public class WebLogicArtifactAttributesImpl implements WebLogicArtifactAttribute
     /**
      * {@inheritDoc}
      */
-    public WebLogicArtifactAttributes setStageMode(StageMode stageMode) {
+    public WebLogicArtifact setStageMode(StageMode stageMode) {
         this.stageMode = stageMode;
         return this;
     }

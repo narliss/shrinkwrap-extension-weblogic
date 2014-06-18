@@ -1,0 +1,1 @@
+package org.jboss.shrinkwrap.weblogic.sharedjar.samplewar;
